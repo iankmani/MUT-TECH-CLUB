@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Sevillana&family=Space+Grotesk:wght@300..700&display=swap");
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  padding: 3rem;
+  background-color: #eef7ff;
+  align-items: center;
+}
+
+.heading {
+  font-size: 2.6rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 300;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+.header-links {
+  display: flex;
+  gap: 4rem;
+  padding: 2rem 1rem;
+}
+.header-links a:hover {
+  background-color: #2e4053;
+  color: rgb(115, 115, 122);
+}
+.header-links a {
+  text-decoration: underline;
+}
