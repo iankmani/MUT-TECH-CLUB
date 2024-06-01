@@ -9,10 +9,14 @@ const AboutUs = () => {
     return (
         <div className="About-us">
             <h1>About Us</h1>
-            <h3>our mission</h3>
-            <p>The Muranga University Technology Club (MUTC) is dedicated to fostering technological learning and innovation among its members. Our mission is to create an inclusive environment where students can explore emerging technologies, develop practical skills, and collaborate on projects that solve real-world problems.</p>
-            <img src={technology_img} alt="picture showing people doing a mission" className="value-item-image-img"/>
-            <h3 className="value-list-arrangement">values</h3>
+            <h3 className="menu-item-title">our mission</h3>
+            <div className="mission-item">
+                
+                <p className="menu-item-description">The Muranga University Technology Club (MUTC) is dedicated to fostering technological learning and innovation among its members. Our mission is to create an inclusive environment where students can explore emerging technologies, develop practical skills, and collaborate on projects that solve real-world problems.</p>
+                <img src={technology_img} alt="picture showing people doing a mission" className="value-item-image"/>
+            </div>
+
+            <h3 className="value-list-title">values</h3>
             <div className="value-item-container">
                 <div className="value-item">
                     <div className="value-item-image">

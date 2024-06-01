@@ -1,5 +1,5 @@
 .About-us {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: grid;
   /* grid-template-rows: repeat(4, 1fr); */
 }
@@ -17,14 +17,16 @@
   display: flex;
   justify-content: center;
   /* font-family: "Sevillana", cursive; */
+  font-size: 30px;
+  text-decoration: underline;
 }
 .value-list {
   list-style: none;
 }
-/* .value-list-arrangement{
+/* .value-list-title{
     /* grid-template-columns: repeat(4, 1fr); */
 
-*/ .img {
+.img {
   display: block;
   width: 100%;
   height: 100%;
@@ -36,11 +38,13 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
-    row-gap: 4rem;
+    row-gap: 1rem;
     margin-top: 2rem;
 }
 .value-item {
     width: 37rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 .value-item-image {
     height: 25rem;
@@ -56,13 +60,29 @@
 .value-item-title {
     margin: 1rem 0;
     text-transform: capitalize;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 .value-item-description {
     margin-bottom: 1.5rem;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: justify;
     line-height: 1.7;
     color: #777;
+}
+.mission-item{
+    display: flex;
+    margin-top: 2rem;
+}
+.menu-item-description{
+    display: flex;
+    flex: 2 2;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.7rem;
+    font-size: 1.2rem; 
+}
+.menu-item-title{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
