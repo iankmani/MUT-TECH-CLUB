@@ -21,8 +21,8 @@
 }
 .header-links {
   display: flex;
-  gap: 4rem;
-  padding: 2rem 1rem;
+  /* gap: 4rem;
+  padding: 2rem 1rem; */
 }
 .header-links a:hover {
   background-color: #2e4053;
@@ -30,4 +30,23 @@
 }
 .header-links a {
   text-decoration: underline;
+}
+.header-link-list{
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  justify-content: center;
+}
+.header-link-item a{
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  transition: all .5s;
+
+}
+.header-link-item a:hover{
+  color: aliceblue;
+  padding: 1rem;
+ 
 }

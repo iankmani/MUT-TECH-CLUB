@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+.testimonials{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.testimony{
+    font-size: 1.2rem;
+    /* display: flex; */
+
+}
+.testimony-title{
+    text-transform: capitalize;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    color: green;
+    text-decoration: underline;
+}
+
+.testimony h1 {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    font-family: "Sevillana", cursive;
+    font-size: 60px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+  }
+
+  .alumni-image{
+    display: flex;
+    height: 20rem;
+    overflow: hidden;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    /* display: grid; */
+    
+   
+  }
+  .alumni-image-img{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+    flex-direction: column;
+    
+  }
+  .alumni-description{
+    display: flex;
+    flex-direction: row;
+   
+  }
+  .alumni-name{
+    display: flex;
+    flex-direction: row;
+  }
