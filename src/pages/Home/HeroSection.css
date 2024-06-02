@@ -12,10 +12,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .hero-paragraph p {
   width: 50%;
   text-align: center;
   font-family: "EB Garamond", serif;
   color: white;
+  /* letter-spacing: 1.5px;
+  line-height: 1.8px; */
+}
+.hero-ctas a{
+  text-decoration: none;
+  color: black;
+  padding: 1rem 1.5rem;
+  display: inline-block;
+  background-color: grey;
+  margin-right: 60px;
+  border-radius: 5px;
 }

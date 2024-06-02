@@ -1,6 +1,13 @@
+import "../Events/Events.css"
 const Events = () => {
     return(
-        <h2>Events</h2>
+        <div className="events">
+            <h1>Events</h1>
+            
+        </div>
+        
+
+        
     )
 }
 

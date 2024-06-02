@@ -7,7 +7,7 @@ import technology_img from "../../assets/technology.jpg"
 import "../Home/AboutUs.css"
 const AboutUs = () => {
     return (
-        <div className="About-us">
+        <div className="About-us" id="AboutUs">
             <h1>About Us</h1>
             <h3 className="menu-item-title">our mission</h3>
             <div className="mission-item">

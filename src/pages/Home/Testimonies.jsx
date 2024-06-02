@@ -5,7 +5,7 @@ import bryson_img from "../../assets/bryson.jpg"
 import lisa_img from "../../assets/lisa.jpg"
 const Testimonies = () => {
     return (
-    <div className="testimony">
+    <div className="testimony" id="Testimonies">
              <h1>Testimonies</h1>
              <div className="testimony-title">
                 <h2>what our alumni and current members say</h2>
