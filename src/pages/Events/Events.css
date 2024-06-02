@@ -6,3 +6,38 @@
     border-bottom: 2px solid black;
     text-transform: uppercase;
 }
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+   
+}
+.events{
+    display: grid;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.event-list {
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+}
+.event {
+    background: #fff;
+    color: #333;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 10px solid #77aaff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.event h2 {
+    margin: 0 0 10px;
+}
+.event p {
+    margin: 0;
+}
+.day {
+    font-weight: bold;
+    color: #77aaff;
+}
